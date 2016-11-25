@@ -1,0 +1,16 @@
+<zk>
+    <window apply="org.zkoss.splitpane.demo.DemoComposer" sizable="true"
+            title="ZK SplitPane" height="600px" width="700px" border="normal" style="margin:50px 0 0 200px">
+        <vlayout vflex="1">
+            <splitpane id="sp1" vflex="1" hflex="1" collapse="before">
+                <window title="Window 1" border="normal" vflex="2">
+                    Hello, World!
+                </window>
+                <window title="Window 2" border="normal" vflex="1">
+                    Hello, World!
+                </window>
+            </splitpane>
+            <button id="btn" label="add child"/>
+        </vlayout>
+    </window>
+</zk>
