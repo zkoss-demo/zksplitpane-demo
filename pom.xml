@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.zkoss</groupId>
 	<artifactId>zksplitepanedemo</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<properties>
 		<zk.version>8.0.0</zk.version>
-        <zksplitpane.version>0.8.0.FL.20161216-Eval</zksplitpane.version>
+        <zksplitpane.version>0.8.0.FL.20170126-Eval</zksplitpane.version>
 		<commons-io>1.3.1</commons-io>
 		<maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
 		<packname>-${project.version}-FL-${maven.build.timestamp}</packname>
